@@ -40,7 +40,7 @@ URL    : http://themeforest.net/user/Beeskip
 
 @font-face {
     font-family: 'Spraoi';
-    src: url('../fonts/Olga.ttf');
+    src: url('fonts/Olga.ttf');
 }
 
 body, html {
