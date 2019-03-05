@@ -48,6 +48,7 @@ URL    : http://themeforest.net/user/Beeskip
         url('../fonts/Olga-Regular.svg#Olga-Regular') format('svg');
 }
 
+
 body, html {
 	font-family: 'Lato', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -227,6 +228,18 @@ hr {
 #menu .vr {
 	font-family: 'Spraoi';
 	color: #1fb4da !important;
+}
+
+
+
+#menu .spraoi-face {
+    height: 24px;
+    margin: 0 0 0 0;
+    font-weight: 900;
+    padding-right: 4px;
+    float: left;
+    -webkit-text-fill-color: blue;
+    -webkit-text-stroke-width: thick;
 }
 #menu a.navbar-brand i.fa {
 	color: #96C346;
