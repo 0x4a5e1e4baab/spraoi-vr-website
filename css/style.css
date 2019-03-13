@@ -1,9 +1,9 @@
 /*--------------------------------------
 
-Template Name : Promo
-Version: 1.0
-Author : Beeskip
-URL    : http://themeforest.net/user/Beeskip
+Template Name : SpraoiVR
+Version: 0.
+Author : SpraoiVR
+URL    : https://spraoivr.ie
 -------------------------------------*/
 /*----------------------------------
 	TABLES :
@@ -273,22 +273,21 @@ hr {
 }
 
 /*------------------------------------
- 03- Home Section
+ 03- Home Section home-page-banner.jpg
  -----------------------------------*/
 header {
-	background: url(../img/header-bg.jpg) no-repeat bottom center;
+	background: url(../img/spraoivr-home.png) no-repeat bottom center;
 	background-size: cover;
 	background-position: 0% 0%;
 	color: #d9e0e2;
 	position: relative;
 	height: 100%;
-
 }
 
 .slider-section {
     top: 0%;
     left: 0%;
-    max-height: 700px;
+    /* max-height: 700px; */
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -302,7 +301,7 @@ header {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .0);
 }
 
 
@@ -1311,7 +1310,7 @@ a.read-more {
 ---------------------------------------*/
 #testimonials-section {
 	padding: 80px 0;
-	background: url(../img/video-game-controller.jpg);
+	background: url(../img/home-page-banner.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	color: #212121;
