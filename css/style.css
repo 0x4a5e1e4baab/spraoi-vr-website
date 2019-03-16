@@ -2565,3 +2565,7 @@ ul, ol {
 .page-404 .error-link-home:hover i {
 	padding-left: 5px;
 }
+
+.bittube-video {
+	height: 392px;
+}
