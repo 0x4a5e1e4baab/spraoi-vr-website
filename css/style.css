@@ -88,7 +88,7 @@ h5 {
 }
 p {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	color:#8c8c8c;
 }
 a {
@@ -127,6 +127,11 @@ blockquote p {
     font-size: 19px;
     line-height: 26px;
     color: #808080;
+}
+.header-cover {
+	background: rgba(0,0,0,0.5);
+	min-height: 100% !important;
+	margin-top: 0 !important;
 }
 
 #preloader {
@@ -746,6 +751,9 @@ object {
 #services-section p {
 	color: #d4d4d4;
 }
+#contact-section p {
+	color: #d4d4d4;
+}
 .space {
 	margin-top: 40px;
 }
@@ -1213,17 +1221,19 @@ a.read-more {
 .planHeader{
 	border-left:2px solid #ebeaea;
 	border-right:2px solid #ebeaea;
-	padding-top:70px;
-	padding-left:30px;
+	/* padding-top:70px;
+	padding-left:30px; */
 }
 
+.contact-btn {
+	padding-top: 30px;
+  padding-bottom: 16px;
+}
 
 .planName{
 	background:#242424;
 	border:2px solid #242424;
-
 }
-
 
 .planName.featured{
 	background:#96C346;
@@ -1295,7 +1305,9 @@ a.read-more {
 .plan-btn a:hover  i{
 	padding-right: 5px;
 }
-
+.plan-pad {
+	padding-bottom: 2em;
+}
 @media (max-width: 678px) {
 	.plan{
 		padding-bottom:30px;
@@ -1491,18 +1503,18 @@ a.read-more {
 	13- Contact Section
 -----------------------------------*/
 #contact-section {
-	background: url(../img/spraoi_leagues.png) center center no-repeat #5E5E5E;
-  	background-size: cover;
+	background: url(../img/events/gamerfest/spraoivr-gamerfest-the-strand-hotel-limerick-all-cast-gamers-1-03-06-2018_big.jpg) center center no-repeat #5E5E5E;
+	background-size: cover;
 	background-attachment:fixed;
 	padding: 80px 0;
 	color: #fff;
 }
 .light-box {
-    background-color: #fff;
-    -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4;
-    -moz-box-shadow: 0px 3px 0px 0px #f0f2f4;
-    box-shadow: 0px 3px 0px 0px #f0f2f4;
-    padding: 20px 0;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 3px 0px 0px #f0f2f4;
+	-moz-box-shadow: 0px 3px 0px 0px #f0f2f4;
+	box-shadow: 0px 3px 0px 0px #f0f2f4;
+	padding: 20px 0;
 	margin-bottom:30px;
 }
 
@@ -1511,24 +1523,24 @@ a.read-more {
 }
 
 .contact-details h5 span {
-    display: block;
-    color: #181818;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 14px;
-    margin-top: 15px;
+	display: block;
+	color: #181818;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	margin-top: 15px;
 }
 
 .box-hover {
-    transition: all 500ms ease-in-out;
-    -webkit-transition: all 500ms ease-in-out;
-    -moz-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
 }
 .light-box:hover, .light-box:focus {
- -webkit-box-shadow: 0px 3px 0px 0px #96C346;
- -moz-box-shadow: 0px 3px 0px 0px #96C346;
- box-shadow: 0px 3px 0px 0px #96C346;
+	 -webkit-box-shadow: 0px 3px 0px 0px #96C346;
+	 -moz-box-shadow: 0px 3px 0px 0px #96C346;
+	 box-shadow: 0px 3px 0px 0px #96C346;
  }
 .box-hover:hover, .box-hover:focus {
  transform: translate(0, -15px);
@@ -1800,6 +1812,9 @@ label {
     color: #fff;
     text-transform: capitalize;
     margin: 0;
+}
+.header-font {
+  font-size: 16px !important;
 }
 .portfolio-nav {
     padding: 40px 0;
