@@ -27,10 +27,7 @@ URL    : https://spraoivr.ie
   16- single portfolio
   17- single blog post
   18- Error Page 404
-
    - Primary color : #96C346
-   -
-
 */
 
 
@@ -39,13 +36,13 @@ URL    : https://spraoivr.ie
 --------------------------------*/
 
 @font-face {
-		font-family: 'Spraoi';
-    src: url('../fonts/Olga-Regular.eot');
-    src: url('../fonts/Olga-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Olga-Regular.woff2') format('woff2'),
-        url('../fonts/Olga-Regular.woff') format('woff'),
-        url('../fonts/Olga-Regular.ttf') format('truetype'),
-        url('../fonts/Olga-Regular.svg#Olga-Regular') format('svg');
+	font-family: 'Spraoi';
+  src: url('../fonts/Olga-Regular.eot');
+  src: url('../fonts/Olga-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Olga-Regular.woff2') format('woff2'),
+      url('../fonts/Olga-Regular.woff') format('woff'),
+      url('../fonts/Olga-Regular.ttf') format('truetype'),
+      url('../fonts/Olga-Regular.svg#Olga-Regular') format('svg');
 }
 
 
@@ -124,9 +121,9 @@ ul, ol {
 }
 
 blockquote p {
-    font-size: 19px;
-    line-height: 26px;
-    color: #808080;
+  font-size: 19px;
+  line-height: 26px;
+  color: #808080;
 }
 .header-cover {
 	background: rgba(0,0,0,0.5);
@@ -1814,7 +1811,7 @@ label {
     margin: 0;
 }
 .header-font {
-  font-size: 16px !important;
+  font-size: 14px !important;
 }
 .portfolio-nav {
     padding: 40px 0;
